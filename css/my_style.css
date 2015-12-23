@@ -2,25 +2,44 @@
 =============================*/
 
 .one {
-  height: 100px;
+  height: 200px;
   width: auto;
-  background-color: tomato;
 }
 
 .two {
-  height: 100px;
+  height: 200px;
   width: auto;
-  background-color: green;
+  background-color: orange;
 }
 
 .three {
-  height: 100px;
+  height: 200px;
   width: auto;
-  background-color: blue;
+  background-color: grey;
 }
 
 .four {
-  height: 100px;
+  height: 200px;
   width: auto;
-  background-color: grey;
+  background-color: yellow;
+}
+
+.col-xs-3 {
+  background-color: tomato;
+  height: 200px;
+}
+
+.col-xs-9 {
+  background-color: yellow;
+  height: 200px;
+}
+
+.three-one {
+  height: 100px;
+  background-color: blue;
+}
+
+.three-two {
+  height: 100px;
+  background-color: orange;
 }
