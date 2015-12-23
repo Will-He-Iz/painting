@@ -1,0 +1,26 @@
+/* Divs
+=============================*/
+
+.one {
+  height: 100px;
+  width: auto;
+  background-color: tomato;
+}
+
+.two {
+  height: 100px;
+  width: auto;
+  background-color: green;
+}
+
+.three {
+  height: 100px;
+  width: auto;
+  background-color: blue;
+}
+
+.four {
+  height: 100px;
+  width: auto;
+  background-color: grey;
+}
