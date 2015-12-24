@@ -10,7 +10,7 @@ body {
 
 /* Divs
 =============================*/
-.wrapper {
+.painting {
   border: solid black 2px;
 }
 
@@ -103,4 +103,28 @@ body {
   background-color: #B8FF10;
   border-right: solid black 2px;
   border-top: solid black 2px;
+}
+
+
+/* Hover States
+=============================*/
+
+.col-xs-9:hover {
+  background-color: #ccc;
+  height: 200px;
+  border-left: solid black 2px;
+}
+
+.three:hover {
+  height: auto;
+  width: auto;
+  background-color: #ccc;
+  border-bottom: solid black 2px;
+}
+
+
+.four:hover {
+  height: auto;
+  width: auto;
+  background-color: #ccc;
 }
