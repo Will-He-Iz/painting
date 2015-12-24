@@ -34,8 +34,7 @@ body {
 =============================*/
 
 .two {
-  height: auto;
-  width: auto;
+  height: 200px;
   background-color: orange;
   border-bottom: solid black 2px;
 }
@@ -45,8 +44,7 @@ body {
 =============================*/
 
 .three {
-  height: auto;
-  width: auto;
+  height: 200px;
   background-color: #03CDE8;
   border-bottom: solid black 2px;
 }
@@ -62,14 +60,14 @@ body {
   background-color: #E86703;
   border-left: solid black 2px;
   border-top: solid black 2px;
+  border-bottom: solid black 2px;
 }
 
 /* Block four
 =============================*/
 
-.four {
-  height: auto;
-  width: auto;
+.col-xs-7 {
+  height: 200px;
   background-color: #BD10FF;
 }
 
@@ -109,22 +107,6 @@ body {
 /* Hover States
 =============================*/
 
-.col-xs-9:hover {
-  background-color: #ccc;
-  height: 200px;
-  border-left: solid black 2px;
-}
-
-.three:hover {
-  height: auto;
-  width: auto;
-  background-color: #ccc;
-  border-bottom: solid black 2px;
-}
-
-
-.four:hover {
-  height: auto;
-  width: auto;
-  background-color: #ccc;
+.hover {
+  background-color: tomato;
 }
