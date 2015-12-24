@@ -1,8 +1,18 @@
+/* Body
+=============================*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+}
+
 /* Divs
 =============================*/
-/* div {
+.wrapper {
   border: solid black 2px;
-} */
+}
 
 
 /* Block one
@@ -10,12 +20,14 @@
 
 .one {
   height: auto;
-  width: auto
+  width: auto;
+  border-bottom: solid black 2px;
 }
 
 .col-xs-9 {
-  background-color: purple;
+  background-color: #62FFC5;
   height: 200px;
+  border-left: solid black 2px;
 }
 
 /* Block two
@@ -25,6 +37,7 @@
   height: auto;
   width: auto;
   background-color: orange;
+  border-bottom: solid black 2px;
 }
 
 
@@ -34,17 +47,21 @@
 .three {
   height: auto;
   width: auto;
-  background-color: grey;
+  background-color: #03CDE8;
+  border-bottom: solid black 2px;
 }
 
 .three-one {
   height: 100px;
-  background-color: blue;
+  background-color: #FFD203;
+  border-left: solid black 2px;
 }
 
 .three-two {
   height: 100px;
-  background-color: orange;
+  background-color: #E86703;
+  border-left: solid black 2px;
+  border-top: solid black 2px;
 }
 
 /* Block four
@@ -53,31 +70,37 @@
 .four {
   height: auto;
   width: auto;
-  background-color: yellow;
+  background-color: #BD10FF;
 }
 
 .col-xs-3 {
-  background-color: tomato;
+  background-color: #E8DFA5;
   height: 200px;
 }
 
 
 .ch-1 {
   height: 100px;
-  background-color: green;
+  background-color: #20FF47;
+  border-right: solid black 2px;
 }
 
 .ch-2 {
   height: 100px;
-  background-color: red;
+  background-color: #E8DD03;
+  border-right: solid black 2px;
 }
 
 .ch-3 {
   height: 100px;
-  background-color: red;
+  background-color: #FFD203;
+  border-right: solid black 2px;
+  border-top: solid black 2px;
 }
 
 .ch-4 {
   height: 100px;
-  background-color: green;
+  background-color: #B8FF10;
+  border-right: solid black 2px;
+  border-top: solid black 2px;
 }
